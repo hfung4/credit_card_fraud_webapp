@@ -161,7 +161,7 @@ tenacity==8.1.0
 terminado==0.17.1
 textblob==0.17.1
 threadpoolctl==3.1.0
-tid-credit-card-fraud-prediction==0.0.4
+tid-credit-card-fraud-prediction
 tinycss2==1.2.1
 toml==0.10.2
 tomli==2.0.1
