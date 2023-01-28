@@ -5,4 +5,4 @@
   
   
   
-  **The app is deployed on Streamlit Cloud and can be access via this [link](https://hfung4-costa-rica-poverty-webapp-main-ns6acp.streamlit.app/).**
+  **The app is deployed on Streamlit Cloud and can be access via this [link](https://hfung4-credit-card-fraud-webapp-app-p56dwb.streamlit.app/).**
