@@ -23,8 +23,8 @@ st.write(
     To perform fraud detection, I trained a Random Forest classifier using a dataset containing transactions 
     made by credit cards in September 2013 by major European cardholders. The dataset was highly imbalanced
     with only 492 frauds out of 284,807 transactions.
-    I created a data pipeline to clean and process data-- including the use of resampling method (SMOTE) 
-    to deal with class imabalance-- feature selection, and model training.
+    I created a [data pipeline](https://github.com/hfung4/credit_card_fraud_detection/tree/main/credit_card_fraud_production) to clean and process data-- including the use of resampling method (SMOTE) 
+    to deal with class imabalance-- feature selection, and model training. The data pipeline is published on pypi as a package [here](https://pypi.org/project/tid-credit-card-fraud-prediction/).
 """
 )
 
@@ -48,7 +48,7 @@ if X_test_file is not None:
     st.text("")
     st.header("Predictions")
     st.write(
-        "A [pre-trained data pipeline]() will be used to process data and make predictions (Fraud or Not Fraud)"
+        "A [pre-trained data pipeline](https://github.com/hfung4/credit_card_fraud_detection/tree/main/credit_card_fraud_production) will be used to process data and make predictions (Fraud or Not Fraud)"
     )
     res = predict.get_predictions(X_test)
 
